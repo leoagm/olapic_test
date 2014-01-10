@@ -1,0 +1,248 @@
+/*Olapic Styles*/
+
+.olapicHeaderContainer{
+  position: relative;
+  left: -10px;
+}
+
+.olapicHeaderContainer img{
+  position: absolute;
+  left: 10px;
+}
+
+.olapicHeader{
+  width: 410px;
+  height: 166px;
+  position: relative;
+  margin: 0 auto;
+  padding: 54px 0 0 33px;
+  text-align: center;
+  color: #542c6b;
+}
+
+.olapicHeader h1{
+  font: 33px/23px italic 'Avenir Next W10 Italic',Arial,sans-serif;
+  color: #542c6b;
+  letter-spacing: -0.02em;
+}
+
+.olapicHeader p{
+  font: 17px/21px 'Avenir Next W10 Regular',Arial,sans-serif;
+}
+
+.olapicHeader .tag{
+  font-family:'Avenir Next W10 Demi',Arial,sans-serif;
+  color: #b981cd; 
+}
+
+.olapicHeader .btn{
+  text-transform: uppercase;
+}
+
+#olapicGallery{
+  background: #d4b4e2;
+  width: 960px;
+  min-height: 600px;
+  position: relative;
+  left: -10px;
+  margin: 12px 0 33px;
+  padding-left: 20px;
+}
+
+#olapicGallery .loader{
+  width: 100px;
+  height: 100px;
+  margin: 200px auto 0;
+  display: none;
+}
+
+.sortContainer{
+  height:50px;
+  font-family:'Avenir Next W10 Demi',Arial,sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 26px;
+  color: #542c6b;
+}
+
+.sortContainer ul,
+.sortContainer li{
+  display: inline-block;
+  padding: 0;
+}
+
+.sortContainer li{
+  padding: 0 9px;
+  border-left: 1px solid #ae93bf;
+}
+
+.sortContainer li:first-child{
+  border: none;
+}
+
+.sortContainer a{
+  color: #fff;
+}
+
+.sortContainer a:hover,
+.sortContainer a.selected{
+  color: #9d36dd;
+}
+
+#olapicGallery .photo{
+  border: 3px solid #fff;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+#olapicGallery .photo img{
+  width: 132px;
+}
+
+#olapicGallery #pic-7 img,
+#olapicGallery #pic-12 img{
+  width: 292px;
+}
+
+.modalElement{
+  width: 717px;
+  height: 540px;
+  padding: 15px 65px;
+  background: #fff;
+  display: none;
+  font-family: 'Avenir Next W10 Regular',Arial,sans-serif;
+  color: #542c6b;
+  border: 1px solid #f4e2d9;
+}
+
+.leftElement{
+  width: 376px;
+  height: 540px;
+  float: left;
+  border-right: 1px solid #bc9c7b;
+  padding-right: 23px;
+  text-align: left;
+}
+
+.leftElement .author{
+  width: 376px;
+  min-height: 80px;
+  padding: 12px 23px 16px 0;
+}
+
+.author .userPhoto{
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-right: 13px;
+}
+
+.author .caption{
+  font-size: 12px;
+}
+
+.author .caption p:first-child{
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.leftElement img{
+  width: 376px;
+}
+
+.rightElement{
+  width: 285px;
+  height: 540px;
+  float: left;
+  padding: 0 16px;
+}
+
+.rightElement .socialmedia{
+  padding-bottom: 29px;  
+}
+
+.rightElement .socialmedia .icon{
+  width: 36px;
+  height: 34px;
+  display: inline-block;
+  background: url(../images/socialmedia_btn.png) 0 0;
+  margin-right: 6px;
+}
+
+.rightElement .socialmedia .twitter{
+  background-position: -40px 0;
+}
+
+.rightElement .socialmedia .pinterest{
+  background-position: -80px 0;
+}
+
+.rightElement .socialmedia .gplus{
+  background-position: -120px 0;
+}
+
+.rightElement .productRelated{
+  width: 100%;
+  height: 407px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.productRelated p{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.productRelated ul{
+  padding: 0;
+}
+
+.productRelated li{
+  list-style: none;
+}
+
+.productRelated img{
+  display: block;
+  margin: 0 auto;
+  max-height: 160px;
+}
+
+.productRelated span{
+  height: 42px;
+  width: 180px;
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 8px;
+  display: block;
+  margin: 0 auto; 
+}
+
+.fancybox-skin .fancybox-close, .fancybox-outer .fancybox-prev span, .fancybox-outer .fancybox-next span{
+  background: url(../images/modal_controls.png);
+}
+
+.fancybox-outer .fancybox-nav span{
+  top: 45%;
+  width: 35px;
+  height: 79px;
+}
+
+.fancybox-outer .fancybox-next span {
+  right: 10px;
+  background-position: -35px 0;
+}
+
+.fancybox-outer .fancybox-prev span {
+  left: 10px;
+  background-position: 0 0;
+}
+
+.fancybox-skin .fancybox-close{
+  background-position: -70px 0;
+  width: 20px;
+  height: 23px;
+  top: -28px;
+  right: 0;
+}
